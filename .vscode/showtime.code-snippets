@@ -1,0 +1,93 @@
+{
+  "Task Input Field": {
+    "prefix": "t-input",
+    "body": [
+      "<input",
+      "  placeholder=\"Add new item...\"",
+      "  type=\"text\"",
+      "  class=\"task-new\"",
+      "/>"
+    ]
+  },
+  "Task Checkbox": {
+    "prefix": "t-checkbox",
+    "body": [
+      "<input type=\"checkbox\" class=\"opacity-0 absolute\" />",
+      "<svg class=\"task-checkbox-icon\" viewBox=\"0 0 20 20\">",
+      "  <path d=\"M0 11l2-2 5 5L18 3l2 2L7 18z\" />",
+      "</svg>"
+    ],
+    "description": ""
+  },
+  "Task Vue Init": {
+    "prefix": "t-init",
+    "body": [
+      "import { createApp } from 'vue';",
+      "import App from 'Base/View/App.vue';",
+      "",
+      "createApp(App).mount('#app');"
+    ],
+    "description": ""
+  },
+  "Task Tailwind Import": {
+    "prefix": "t-tailwind",
+    "body": [
+      "<link href=\"https://unpkg.com/tailwindcss@1.4.6/dist/tailwind.min.css\" rel=\"stylesheet\">"
+    ],
+    "description": ""
+  },
+  "Task Suspense": {
+    "prefix": "t-suspense",
+    "body": [
+      "<suspense>",
+      "  <template #default>",
+      "    <TaskList />",
+      "  </template>",
+      "  <template #fallback>",
+      "    <div>Loading ...</div>",
+      "  </template>",
+      "</suspense>"
+    ],
+    "description": ""
+  },
+  "Task App": {
+    "prefix": "t-app",
+    "body": [
+      "import TaskList from 'Task/View/Task.vue';",
+      "",
+      "export default {",
+      "  components: { TaskList },",
+      "  setup() {},",
+      "};"
+    ],
+    "description": ""
+  },
+  "Task New": {
+    "prefix": "t-new",
+    "body": [
+      "const addTask = () => {",
+      "  if (state.newTask.trim().length === 0) return;",
+      "  state.tasks.push({ name: state.newTask, done: false });",
+      "",
+      "  state.newTask = \"\";",
+      "};"
+    ],
+    "description": ""
+  },
+  "Task Browse": {
+    "prefix": "t-browse",
+    "body": [
+      "import { Handler, response } from 'kretes';",
+      "",
+      "const { OK } = response;",
+      "",
+      "const browse: Handler = () => {",
+      "  return OK('200 OK');",
+      "}",
+      "",
+      "export = browse;",
+      ""
+    ],
+    "description": ""
+  }
+}
