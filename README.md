@@ -1,4 +1,6 @@
-# README
+# Setting up React.js with Kretes
+
+![React.js with Kretes](https://user-images.githubusercontent.com/200613/90030019-d80dce80-dcbb-11ea-9f7c-928050f8943c.gif)
 
 ## Getting Started
 
@@ -17,7 +19,7 @@ To start debugging in VSCode select one of the configurations in Run and Debug m
 Install dependencies
 
 ```
-npm install
+pnpm install
 ```
 
 Start the application:
