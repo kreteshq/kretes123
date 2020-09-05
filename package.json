@@ -2,15 +2,12 @@
   "name": "kretes123",
   "version": "0.0.1",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
   "dependencies": {
     "kretes": "link:../kretes",
     "ky": "^0.23.0",
-  },
-  "snowpack": {
-    "webDependencies": [
-      "tslib"
-    ]
     "vue": "^3.0.0-rc.10"
   },
   "browserslist": [
