@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "kretes": "^0.66.0",
+    "kretes": "link:../kretes",
     "ky": "^0.23.0",
-    "vue": "^3.0.0-rc.6"
   },
   "snowpack": {
     "webDependencies": [
       "tslib"
     ]
+    "vue": "^3.0.0-rc.10"
   },
   "browserslist": [
     "> 1%",
@@ -19,15 +19,15 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "@wessberg/rollup-plugin-ts": "^1.3.2",
+    "@wessberg/rollup-plugin-ts": "^1.3.4",
     "autoprefixer": "^9.8.6",
     "chokidar": "^3.4.2",
     "cross-env": "^7.0.2",
     "node-pg-migrate": "^5.6.0",
-    "npm-check-updates": "^7.1.1",
-    "prettier": "^2.0.5",
-    "rollup": "^2.26.4",
-    "tailwindcss": "^1.7.2",
-    "typescript": "^4.0.1-rc"
+    "npm-check-updates": "^8.1.0",
+    "prettier": "^2.1.1",
+    "rollup": "^2.26.10",
+    "tailwindcss": "^1.8.2",
+    "typescript": "^4.0.2"
   }
 }
