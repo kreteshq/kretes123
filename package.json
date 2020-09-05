@@ -1,5 +1,7 @@
 {
   "name": "kretes123",
+  "title": "This is title for OpenAPI",
+  "description": "This is some test description for Open API",
   "version": "0.0.1",
   "private": true,
   "scripts": {
