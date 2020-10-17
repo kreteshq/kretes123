@@ -93,6 +93,7 @@
       }
     }
   ],
+  "sqltools.sessionFilesFolder": "/db/session/",
   "sqltools.connections": [
     {
       "previewLimit": 50,
